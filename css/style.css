@@ -1,0 +1,90 @@
+:root {
+    --bggradient: linear-gradient(to bottom, #083496, #083496);
+}
+
+header {
+    /* background: var(--bggradient); */
+    background-image: url('../assetss/pic/content/banner/bg/WechatIMG806.png');
+    background-size: cover;
+}
+
+/* Top Bar */
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #083496;
+    color: white;
+}
+
+.topbar-left {
+    padding-left: 10%;
+}
+
+.topbar-right {
+    padding-right: 10%;
+}
+
+/* Nav */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbarLogo {
+    height: 18px;
+    width: auto;
+    padding-left: 9%;
+    align-self: center;
+}
+
+.navbarLogo img {
+    height: 18px;
+    width: auto;
+}
+
+.navbarNav {
+    padding-right: 8%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 0.9em;
+}
+
+.nav-item:last-child {
+    padding-right: 0em;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+/* Header Content + Image */
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-content-left {
+    padding-top: 5%;
+    padding-left: 10%;
+    color: white;
+}
+
+.header-content-right {
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+.header-content-right img {
+    width: 60%;
+    height: auto;
+}
